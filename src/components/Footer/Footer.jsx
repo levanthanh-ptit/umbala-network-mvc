@@ -1,6 +1,6 @@
-import React, { Component } from 'react'
+import React, { PureComponent } from 'react'
 import './Footer.scss'
-export default class Footer extends Component {
+export default class Footer extends PureComponent {
     render() {
         return (
             <div className='Footer__main-container' >
@@ -9,16 +9,16 @@ export default class Footer extends Component {
                         <i className='fab fa-telegram-plane' />
                     </a>
                     <a className='Footer__Linked_icons__icon' href="https://medium.com/umbalanetworkvn" target="_blank">
-                        <i class="fab fa-medium-m"></i>
+                        <i className="fab fa-medium-m"></i>
                     </a>
                     <a className='Footer__Linked_icons__icon' href="http://fb.com/UmbalaNetwork" target="_blank">
-                        <i class="fab fa-facebook-f"></i>
+                        <i className="fab fa-facebook-f"></i>
                     </a>
                     <a className='Footer__Linked_icons__icon'href="https://twitter.com/UmbalaNetwork" target="_blank">
-                        <i class="fab fa-twitter"></i>
+                        <i className="fab fa-twitter"></i>
                     </a>
                     <a className='Footer__Linked_icons__icon'href="https://www.linkedin.com/company/umbalanetwork/" target="_blank">
-                        <i class="fab fa-linkedin-in"></i>
+                        <i className="fab fa-linkedin-in"></i>
                     </a>
                 </div>
                 <p className='Footer__title'>
